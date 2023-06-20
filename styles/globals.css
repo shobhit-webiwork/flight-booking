@@ -1,0 +1,398 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@font-face {
+  font-family: 'Avenir';
+  font-weight: 300;
+  font-style: normal;
+  src: local('Avenir Book'), local('Avenir-300'),
+    url('/fonts/Avenir-Book.woff') format('woff'),
+    url('/fonts/Avenir-Book/Avenir-Book.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Avenir';
+  font-weight: 500;
+  font-style: normal;
+  src: local('Avenir Medium'), local('Avenir-500'),
+    url('/fonts/Avenir-Medium.woff') format('woff'),
+    url('/fonts/Avenir-Medium/Avenir-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Avenir';
+  font-weight: 700;
+  font-style: normal;
+  src: local('Avenir Heavy'), local('Avenir-700'),
+    url('/fonts/Avenir-Heavy.woff') format('woff'),
+    url('/fonts/Avenir-Heavy/Avenir-Heavy.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Avenir';
+  font-weight: 900;
+  font-style: normal;
+  src: local('Avenir Black'), local('Avenir-900'),
+    url('/fonts/Avenir-Black.woff') format('woff'),
+    url('/fonts/Avenir-Black/Avenir-Black.ttf') format('truetype');
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: #edf0f7 !important;
+  font-family: 'Avenir' !important;
+  font-style: normal !important;
+  text-rendering: inherit !important;
+}
+
+.city-text {
+  z-index: -1 !important;
+}
+
+.maldivtext {
+  font-family: 'Playfair Display';
+}
+
+.calendar-modal {
+  background-color: #fff !important;
+  height: auto !important;
+}
+
+._1aDvk {
+  display: none !important;
+}
+
+._24OKz {
+  display: none !important;
+}
+
+._3curk {
+  background-color: rgb(249 249 249 / 50%) !important;
+  position: relative !important;
+}
+
+.select__value-container.css-1fdsijx-ValueContainer {
+  padding: 0px !important;
+}
+
+.calendarstyle {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+._yof3Q select {
+  background-color: #ffffff !important;
+}
+
+.react-datepicker {
+  border: 1px solid #fff !important;
+
+  width: 93% !important;
+}
+
+.react-datepicker__day-name,
+.react-datepicker__day,
+.react-datepicker__time-name {
+  width: 2.7rem !important;
+}
+
+.react-datepicker__header {
+  background-color: #fff !important;
+  border-bottom: 1px solid #aeaeae !important;
+  border-bottom: 1px solid #fff9f9 !important;
+}
+
+.react-datepicker__day-names {
+  border-top: 1px solid #e7e3e3 !important;
+  margin-top: 10px;
+}
+
+.react-datepicker__current-month,
+.react-datepicker-time__header,
+.react-datepicker-year-header {
+  margin-top: 0;
+  color: #9d9b9b !important;
+  font-family: 'Avenir' !important;
+}
+
+.react-datepicker__today-button {
+  background-color: #fff !important;
+  border-top: 1px solid #ddd6d6 !important;
+  color: #1890ff !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+
+.react-datepicker__day--highlighted {
+  background-color: #d1ffd9 !important;
+  color: black !important;
+}
+
+.arrow-modal {
+  position: absolute !important;
+  left: 27px !important;
+  top: 25px;
+}
+
+.intl-tel-input {
+  display: flex !important;
+}
+
+.react-datepicker__month-container {
+  float: center !important;
+  width: 100% !important;
+}
+
+.linear {
+  opacity: 1.6 !important;
+  backdrop-filter: brightness(0.6);
+}
+
+.header-index {
+  z-index: 99 !important;
+}
+
+.button-style {
+  width: 48% !important;
+  margin: 0 auto !important;
+}
+
+.left-percentage {
+  left: 18.5%;
+}
+
+.css-1nmdiq5-menu {
+  margin-top: 10px !important;
+  width: 100% !important;
+}
+
+.family-style {
+  font-family: 'Playfair Display';
+}
+
+.tab-box {
+  width: 31.5% !important;
+}
+
+.css-1xc3v61-indicatorContainer {
+  color: #2d3648 !important;
+}
+
+.flexbox {
+  display: flex;
+  align-items: self-start;
+}
+
+.banner-fix {
+  width: 87%;
+  margin: 0 auto;
+}
+
+.width-auto {
+  width: 87%;
+}
+
+.react-datepicker__day--in-selecting-range,
+.react-datepicker__day--in-range {
+  background-color: #a9d1d1 !important;
+  border-radius: 8px !important;
+  color: black !important;
+}
+
+.react-datepicker__day--selected {
+  background-color: #1d7d92 !important;
+  padding: 10px 0px;
+  border-radius: 8px !important;
+}
+
+.react-datepicker__day--range-end {
+  background-color: #1d7d92 !important;
+}
+
+.react-datepicker__day,
+.react-datepicker__time-name {
+  padding: 10px 0px !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+}
+
+.react-datepicker__navigation-icon::before {
+  border-color: #1d7d92 !important;
+}
+
+.text-small {
+  font-size: 10px;
+}
+
+.layout-content {
+  flex-grow: 1;
+  background: #edf0f7;
+  margin-top: 0px;
+}
+
+.react-datepicker__year-select {
+  padding: 1px 6px 0px 9px !important;
+  background: #ffff !important;
+}
+
+.react-datepicker__month-select {
+  padding: 1px 6px 0px 9px !important;
+  background: #ffff !important;
+}
+
+.price-modal {
+  width: 22.9%;
+}
+
+@media screen and (max-width: 460px) and (min-width: 200px) {
+  .calendar-modal {
+    background-color: #fff !important;
+    position: fixed;
+    height: auto !important;
+    width: 100%;
+    border-radius: 30px 30px 0px 0px;
+    z-index: 99999999 !important;
+    bottom: 0px;
+  }
+
+  .linear {
+    opacity: 1.6 !important;
+    backdrop-filter: brightness(0.4);
+  }
+
+  .calendarstyle {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+
+  ._yof3Q select {
+    background-color: #ffffff !important;
+  }
+
+  .react-datepicker__month-container {
+    float: center !important;
+    width: 100% !important;
+  }
+
+  .react-datepicker {
+    border: 1px solid #fff !important;
+
+    width: 93% !important;
+  }
+
+  .react-datepicker__day-name,
+  .react-datepicker__day,
+  .react-datepicker__time-name {
+    width: 2.5rem !important;
+  }
+
+  .react-datepicker__header {
+    background-color: #fff !important;
+    border-bottom: 1px solid #aeaeae !important;
+    border-bottom: 1px solid #fff9f9 !important;
+  }
+
+  .react-datepicker__day-names {
+    border-top: 1px solid #e7e3e3 !important;
+    margin-top: 10px;
+  }
+
+  .react-datepicker__current-month,
+  .react-datepicker-time__header,
+  .react-datepicker-year-header {
+    margin-top: 0;
+    color: #9d9b9b !important;
+    font-family: 'Avenir' !important;
+  }
+
+  .react-datepicker__today-button {
+    background-color: #fff !important;
+    border-top: 1px solid #ddd6d6 !important;
+    color: #1890ff !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+  }
+
+  .arrow-modal {
+    position: absolute !important;
+    left: 27px !important;
+    top: 25px;
+  }
+
+  .intl-tel-input {
+    display: flex !important;
+  }
+
+  .modal-height {
+    height: 420px !important;
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 200px) {
+  .tab-box {
+    width: 31% !important;
+  }
+
+  .button-style {
+    width: 49% !important;
+    margin: 0 auto !important;
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 200px) {
+  .left-percentage {
+    left: 4%;
+  }
+
+  .index-style {
+    z-index: 9;
+  }
+}
+
+.seats-class {
+  border: 1px solid;
+  width: 10%;
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+
+.seats-class-1 {
+  border: 1px solid;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.country-list {
+  width: 100% !important;
+}
+
+#navbar {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
